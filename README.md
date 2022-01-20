@@ -1,4 +1,4 @@
-#My first app with ReactJs :100:
+# My first app with ReactJs :100:
 
 I'll be inspired by the Windows calculator.
 Step by step:
