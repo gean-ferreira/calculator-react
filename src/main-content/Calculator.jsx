@@ -1,4 +1,5 @@
 import '../style/Calculator.css'
+import Button from '../Components/Buttons'
 
 const Calculator = () => {
   return(
