@@ -1,3 +1,5 @@
+import '../style/ComponentsCss/Buttons.css'
+
 export default props => {
   
   let classes = 'button '

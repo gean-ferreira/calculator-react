@@ -1,0 +1,21 @@
+.button{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.button:hover{
+  background-color: grey;
+}
+
+.operation{
+  font-weight: normal;
+  background-color: lightgray;
+}
+
+.threeCol{
+  grid-column: span 3;
+}
+
+.twoCol{
+  grid-column: span 2;
+}
