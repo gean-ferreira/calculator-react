@@ -12,7 +12,7 @@ export default props => {
   // increment in className if the button has 
   // threeCol
   // in your proprities
-  classes += props.ThreeCol ? 'ThreeCol' : ''
+  classes += props.threeCol ? 'threeCol' : ''
 
   return(
     <button className={classes}>{props.value}</button>
