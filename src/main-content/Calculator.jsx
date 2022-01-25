@@ -6,6 +6,10 @@ const Calculator = () => {
     <>
       <h1>Calculator</h1>
       <div className="calculator">
+        <div className="display">
+          <div className="expression">12 + 12 = 24</div>
+          <div className="inputValues">999</div>
+        </div>
         <Button value={"CLEAR ALL"} threeCol/>
         <Button value={"/"} operation/>
         <Button value={7}/>
