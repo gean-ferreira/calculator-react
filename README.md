@@ -2,9 +2,9 @@
 
 I'll be inspired by the Windows calculator.
 Step by step:
-- CSS - calculato design;
+- CSS - calculator design;
 - Create components;
-  - Buttons and Calculator;
+  - Calculator, Buttons and display screen;
 - Logic;
 - Last adjustments and;
 - Done!

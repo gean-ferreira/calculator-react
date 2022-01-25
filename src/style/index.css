@@ -1,6 +1,6 @@
 body {
   display: flex;
-   height: 100vh; /* Tamanho total da tela */
+  height: 100vh; /* Tamanho total da tela */
   justify-content: center;
   align-items: center;
   text-align: center;
