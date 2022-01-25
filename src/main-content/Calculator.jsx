@@ -1,15 +1,13 @@
 import '../style/Calculator.css'
 import Button from '../Components/Buttons'
+import Display from '../Components/Display'
 
 const Calculator = () => {
   return(
     <>
       <h1>Calculator</h1>
       <div className="calculator">
-        <div className="display">
-          <div className="expression">12 + 12 = 24</div>
-          <div className="inputValues">999</div>
-        </div>
+        <Display/>
         <Button value={"CLEAR ALL"} threeCol/>
         <Button value={"/"} operation/>
         <Button value={7}/>
