@@ -17,6 +17,11 @@ export default props => {
   classes += props.threeCol ? 'threeCol' : ''
 
   return(
-    <button className={classes}>{props.value}</button>
+    <button 
+    onClick={e => props.click && props.click(props.value)}
+    // onClick={() => console.log(props.value)}
+    className={classes}>
+      {props.value}
+    </button>
   )
 }
