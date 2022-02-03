@@ -6,5 +6,10 @@ Step by step:
 - Create components;
   - Calculator, Buttons and display screen;
 - Logic;
+  - [x] Add props to the components;
+  - [x] Make the numbers appear on the display screen when clicking the number buttons (event onClick | useState);
+  - [ ] Clear the display screen;
+  - [ ] Add logic to the all operators
+
 - Last adjustments and;
 - Done!
