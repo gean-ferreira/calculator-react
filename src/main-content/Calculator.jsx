@@ -7,7 +7,15 @@ const Calculator = () => {
 
   const [calc, setCalc] = useState("");
 
+  const oprt = ['/', '*', '+', '-']
+
   const updateCalc = value => {
+    // if the display has no number doesnt include an operator 
+    // or
+    // has an operator in it (on the display) cannot put any operator
+    if(calc === '' && oprt.includes(value) || oprt.includes(value) && oprt.includes(calc.slice(-1))) {
+      return;
+    }
     setCalc(calc + value)
   }
 

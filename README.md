@@ -9,7 +9,8 @@ Step by step:
   - [x] Add props to the components;
   - [x] Make the numbers appear on the display screen when clicking the number buttons (event onClick | useState);
   - [ ] Clear the display screen;
-  - [ ] Add logic to the all operators
+  - [x] Add logic to the all operators
+  - [ ] Show results
 
 - Last adjustments and;
 - Done!
