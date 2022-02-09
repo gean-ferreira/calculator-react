@@ -19,7 +19,14 @@ const Calculator = () => {
 		setCalc(calc + value);
 	};
 
-  return(
+	const clearAll = () => {
+		if (calc == "") return;
+
+		const value = "";
+		setCalc(value);
+	};
+
+	return (
     <>
       <h1>Calculator</h1>
       <div className="calculator">
